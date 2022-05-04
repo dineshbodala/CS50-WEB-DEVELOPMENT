@@ -1,0 +1,10 @@
+%message{
+    font-style: italic;
+    background-color: green;
+}
+
+.box{
+    @extend %message;
+    border: 5px;
+    color: rgb(182, 20, 20);
+}
