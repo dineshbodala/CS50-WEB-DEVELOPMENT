@@ -4,44 +4,46 @@
         survey form
     </title>
     <link rel="stylesheet" href="survey.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
 </head>
 <body style="background-color: rgb(181, 226, 113);">
     <h1 class="h1"><u style="color: black;">SURVEY FORM</u></h1>
     <form class="row g-3">
-        <div class="col-md-6">
+        <div class="form-control" >
           <label for="inputEmail4" class="form-label">1)Enter Your Email</label><br>
-          <input type="email" class="form-control" id="inputEmail4" size='150px';><br><br><br><br>
+          <input type="email" class="form-control" id="inputEmail4"><br><br><br><br>
         </div>
-        <div class="col-12">
+        <div class="form-control">
           <label for="inputAddress" class="form-label">2)Enter Permanant Address</label><br>
-          <input type="text" class="form-control" id="inputAddress" size='150px'><br><br><br><br>
+          <input type="text" class="form-control" id="inputAddress"><br><br><br><br>
         </div>
-        <div class="col-12">
+        <div class="form-control">
           <label for="inputAddress2" class="form-label">3)Enter Temporary Address</label><br>
-          <input type="text" class="form-control" id="inputAddress2" size='150px'><br><br><br><br>
+          <input type="text" class="form-control" id="inputAddress2"><br><br><br><br>
         </div>
-        <div class="col-md-6">
+        <div class="form-control">
           <label for="inputCity" class="form-label">4)Enter The City</label><br>
-          <input type="text" class="form-control" id="inputCity" size='150px'><br><br><br><br>
+          <input type="text" class="form-control" id="inputCity"><br><br><br><br>
         </div>
-        <div class="col-md-6">
+        <div class="form-control">
             <label for="inputCity" class="form-label">5)Enter The State</label><br>
-            <input type="text" class="form-control" id="inputCity" size='150px'><br><br><br><br>
+            <input type="text" class="form-control" id="inputCity"><br><br><br><br>
           </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">6)Enter the Zip</label><br>
-          <input type="text" class="form-control" id="inputZip" size='150px'><br><br><br><br>
+        <div class="form-control">
+          <label for="inputZip" class="form-label">6)Enter Zip</label><br>
+          <input type="text" class="form-control" id="inputZip"><br><br><br><br>
         </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
+        <input type="checkbox" class="largerCheckbox"
+            name="checkBox2" checked>
             <label class="form-check-label" for="gridCheck">
-              All the information provided is correct
-            </label>
-          </div>
+                All the information provided is correct
+              </label>
         </div><br><br>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary" size="50px">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>
     

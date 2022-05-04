@@ -8,7 +8,44 @@ label{
     color: black;
     font-style: italic;
 }
-input{
-    size='150px';
 
+body {
+    background-color: #05c46b;
+    font-family: Verdana;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form-control input,
+		
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+
+button {
+    background-color: #12613c;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+input.largerCheckbox {
+    width:20px;
+    height: 20px;
 }
